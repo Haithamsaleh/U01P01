@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -36,11 +35,32 @@ li {
 
 .wrapper {
 	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+background-image: url(25128298.jpg);
+	justify-content: space-around;
+	
 }
+.showd{
+	width: 100%;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#1D1755;
+	font-size: 2rem;
+}
+
+.bg{
+	width: 100%;
+}
+
+
+
 
 header {
 	width: 100%;
-	height: 90px;
+	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -65,25 +85,17 @@ header {
 
 .banner {
 	width: 100%;
-	height: 90vh;
+	height: 80vh;
 	background-image: url('25128298.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-color: #1D1755;
 	opacity: 0.9;
+	
 }
 
-.list{
-    border-radius: 25px;
 
-}
-.list-group {
-background-color: whitesmoke;
-border-left: 10px solid #1D1755;
-    border-right: 10px solid #1D1755;
-
-}
 
 .title {
     width: 100%;
@@ -95,7 +107,8 @@ border-left: 10px solid #1D1755;
 	font-size: 2rem;
 }
 
-h1,h2 {
+h2 {
+	text-align: center;
 	color: #000000 ;
 	font-weight: bold;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -107,22 +120,72 @@ h2 {
     font-size: 2rem;
 }
 
+
 .show {
-	  
-	float:left;
-	width: 33%;
-	padding: 5px;
+	 background-color: #ccc;
+	  margin: 10px;
+	  display: flex;
+	  justify-content:space-between;
+	width: 30%;
+	border: 1px solid #1D1755;
   }
   
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
+  .show-tumb:hover {
+	transition: all 1s linear;
+	filter: blur(8px);
+	 
+}
+.show-details:hover{
+	transition: all 0.5s linear;
+	color:#1D1755;
+	font-style: bold;
+	font-size: 2rem;
+	
+}
+.show-titel:hover {
+	transition: all 0.5s linear;
+	color:#1D1755;
+	font-style: bold;
+	size: 4rem;
+	text-transform: uppercase;
 
+}
+.show-rating{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#fbutt{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  .showpg{
+	background-color: #ccc;
+	margin: 10px;
+	display: flex;
+	justify-content:space-between;
+  width: 30%;
+  border: 1px solid #1D1755;
+
+  }
+  .showvid{
+margin-top: 10px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
 .footer {
     width: 100%;
-	height: 40px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
