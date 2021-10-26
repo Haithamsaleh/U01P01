@@ -6,7 +6,7 @@ shows = [
       rating: "./img/10-10.png",
       rat:"10/10",
       seasons: "5",
-      page:``,
+      page:`bb.html`,
       description: "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
   },
   {
@@ -24,7 +24,7 @@ shows = [
     rating: "./img/9-10.png",
     rat:"9/10",
     seasons: "1",
-     page:``,
+     page:`ch.html`,
     description: "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
 },
 {
@@ -33,7 +33,7 @@ shows = [
   rating: "./img/9-10.png",
     rat:"9/10",
   seasons: "1",
-  page:``,
+  page:`bob.html`,
   description: "The story of Easy Company of the U.S. Army 101st Airborne Division and their mission in World War II Europe, from Operation Overlord to V-J Day."
 },
 {
@@ -42,7 +42,7 @@ shows = [
   rating: "./img/9-10.png",
     rat:"9/10",
   seasons: "5",
-  page:``,
+  page:`tw.html`,
   description: "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement."
 },{
   titel: "The Sopranos",
@@ -50,7 +50,7 @@ shows = [
   rating: "./img/9-10.png",
     rat:"9/10",
   seasons: "6",
-  page:``,
+  page:`ts.html`,
   description: "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling."
 },{
   titel: "Rick and Morty",
@@ -58,7 +58,7 @@ shows = [
   rating: "./img/9-10.png",
     rat:"9/10",
   seasons: "5+",
-  page:``,
+  page:`ram.html`,
   description: "An animated series that follows the exploits of a super scientist and his not-so-bright grandson."
 },{
   titel: "Sherlock",
@@ -66,7 +66,7 @@ shows = [
   rating: "./img/9-10.png",
     rat:"9/10",
   seasons: "4",
-  page:``,
+  page:`sh.html`,
   description: "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London."
 },{
   titel: "True Detective",
@@ -74,7 +74,7 @@ shows = [
   rating: "./img/8.5-10.png",
     rat:"8/10",
   seasons: "3",
-  page:``,
+  page:`td.html`,
   description: "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law."
 },{
   titel: "The Night Manager",
@@ -82,7 +82,7 @@ shows = [
   rating: "./img/8-10.png",
     rat:"8/10",
   seasons: "1",
-  page:``,
+  page:`tnm.html`,
   description: "The night manager of a Cairo hotel is recruited to infiltrate an arms dealer's inner circle."
 },
 {
@@ -91,7 +91,7 @@ shows = [
   rating: "./img/8-10.png",
   rat:"8/10",
   seasons: "1+",
-  page:``,
+  page:`Witcher.html`,
   description: "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts."
 },
 {
@@ -100,7 +100,7 @@ shows = [
   rating: "./img/8-10.png",
     rat:"8/10",
   seasons: "1+",
-  page:``,
+  page:`loki.html`,
   description: "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”"
 }
 /*{
@@ -121,7 +121,7 @@ shows.forEach(shows => {
           <div class="show">
              
               <div class="show-tumb">
-              <a href="${shows.page}"><img src=${shows.img} width="100%" height="500px" 'img for ${shows.titel}'></a>
+              <a href="${shows.page}"><img src=${shows.img} width="100%" 	border-radius:"50px"; height="500px" 'img for ${shows.titel}'></a>
                   
               </div>
               <div class="show-titel">
@@ -135,7 +135,7 @@ shows.forEach(shows => {
                   </p>
                   <div class="show-bottom-details">
                       <div class="show-rating">
-                      <img src=${shows.rating} width="50%" height="90px" 'img for ${shows.rat}'>
+                      <img src=${shows.rating} width="30%" height="50px" 'img for ${shows.rat}'>
                          
                       </div>
                       <div id=fbutt > 
