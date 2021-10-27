@@ -57,6 +57,7 @@ background-image: url(25128298.jpg);
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color:#1D1755;
 	font-size: 2rem;
+	
 }
 
 .bg{
@@ -192,7 +193,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
+
 	
 }
 .banner2 {
@@ -202,7 +203,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner3 {
@@ -212,7 +212,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner4 {
@@ -222,7 +221,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner5 {
@@ -232,7 +230,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner6 {
@@ -242,7 +239,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner7 {
@@ -252,7 +248,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner8 {
@@ -262,7 +257,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner9 {
@@ -272,7 +266,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner10 {
@@ -282,7 +275,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner11 {
@@ -292,7 +284,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 .banner12 {
@@ -302,7 +293,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.9;
 	
 }
 
@@ -349,12 +339,15 @@ h2 {
 	  justify-content:space-between;
 	width: 30%;
 	border: 1px solid #1D1755;
+	transition: 1s;
+  }
+  .show:hover {
+	  transform: scale(1.1);
   }
   
   .show-tumb:hover {
 	transition: all 1s linear;
-	filter: blur(8px);
-
+	filter: drop-shadow(0 0 1.99rem rgb(255, 255, 255));
 
 }
 .show-details{
@@ -362,6 +355,10 @@ h2 {
 	text-shadow: #1D1755 0 0 10px;	font-style: bold;
 	font-size: 2rem;
 	margin-left: 10px;
+	margin-top: 10px;
+	display:block;
+
+
 }
 
 .show-details:hover{
@@ -380,15 +377,15 @@ h2 {
 
 }
 .show-rating{
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align:center ;
+	display: block;
+	flex-wrap: wrap;
 }
-#fbutt{
+ #fbutt{
 	display: flex;
-	justify-content: end;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
 }
 
   .showpg{
@@ -448,7 +445,7 @@ font-size: 3rem;
 	resize: vertical 
   }
   
-  input[type=submit] {
+  input[type=button] {
 	background-color: #1D1755;
 	color: white;
 	padding: 12px 20px;
@@ -457,7 +454,7 @@ font-size: 3rem;
 	cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  input[type=button]:hover {
 	background-color: #45a049;
   }
   
@@ -546,4 +543,16 @@ footer {
 	color: #fff;
 	text-shadow: #fff 0 0 10px;	background-color: var(--gray);
        
+}
+
+.cards, #Result {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+@media screen and (max-width: 768px) {
+	
+	
 }
